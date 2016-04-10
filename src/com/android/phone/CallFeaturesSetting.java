@@ -411,6 +411,7 @@ public class CallFeaturesSetting extends PreferenceActivity
             mFlipAction.setValue(String.valueOf(flipAction));
             updateFlipActionSummary(flipAction);
         }
+}
 
     @Override
     protected void onNewIntent(Intent newIntent) {
